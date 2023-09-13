@@ -1,6 +1,7 @@
 -Purpose of this course was to understand the nuances of javascript, the javascript basics, and how it works while creating small projects to understand concepts as a whole
 -Over time, in each lesson, course allowed me to see the optimizations and understand how the javascript language is used in a practical sense.
--This code was created as I walked through the course in VSC Editor. Any code that is mine, will be in a seperate project. Credits to SuperSimpleDev On youtube.
+-This code was created as I walked through the course in VSC Editor. Any code that is mine, will be in a seperate project. Credits to SuperSimpleDev On youtube. Though I followed along, now I understand what I'm looking at. I now understand Numbers, Strings, Variables, booleans, if-statements, functions, objects, DOM, combining with HTML/CSS, arrays, and loops in JS.
+
 -Games:
   - Rock Paper Scissors : R S P keyboard can use to play that way, computer can play against himself, click using event listener instead of on click.
 -Created:
