@@ -20,7 +20,7 @@
   - Booleans and If Else conditions
     - logical operators
     - Truthy/Falsey Values
-  - Functions and how they are created in JS, how you tie into HTML buttons, text boxes, etc
+  - Functions and how they are created in JS, how you tie into HTML buttons, text boxes, etc. Also features like Closures. 
   - Objects in JS - how they are represented, how they are stored in memory and what are references in relation to objects
   - Document Object Model - how to use document.querySelect() to pull HTML into JS object, how document = contents within webpage, window = entire webpage. window.document e.g
   - Learned the Element property of a certain letter on a keyboard - u can track VIA events. onkeydown html
@@ -38,6 +38,8 @@
     -continue ; skip a run of the loop if condition is met
     - Arrow Functions
     - forEach 
+  - Filter Array Method
+  - Map
 - Lesson 12 - mainly switching to arrow functions and for each functions for existing projects, understanding differences
   -Also using event listeners instead of onclick in html, removed onclick, created an event listener to listen for "click"
 
