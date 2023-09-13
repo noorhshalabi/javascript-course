@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> DOM Project</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <p> Youtube Subscribe Button</p>
+    <button onclick="subscribeFunction()"
+       class="js-subscribe-button"> 
+       Subscribe
+    </button>
+
+    <!-- Block element = p, it takes up a whole block. 
+      So any button that comes after this, will go below it-->
+    <p>Amazon Shipping Calculator </p>
+    <!-- Input box, void element, doesn't require closing tag-->
+    <!-- Add a placeholder to the text box, the shadow sentence if nothing is in there-->
+    <!-- onkeydown="..." run javascript when we press a key down, this is an event listener, multiple
+    types to listen to. Check if the key is Enter key, check event object and see if key = 'Enter'-->
+    <input placeholder="Cost of order" class="js-cost-input" onkeydown="handleCostKeyDown(event)">
+
+    <button onclick="
+      calculateTotal();
+    ">Calculate</button>
+    <p class="js-total-cost"></p>
+
+
+    <script>
+
+    /*Handle Cost key Function - Enter*/
+      function handleCostKeyDown(event) {
+        if(event.key === 'Enter'){
+          calculateTotal();
+        }
+      }
+      /*
+        When we click the button: 
+        1. Get the text in the box
+        2. If the amount < $40, add shipping
+        3. Display total on the page
+      */
+      function calculateTotal(){
+        const inputElement = document.querySelector('.js-cost-input');
+        //no HTML inside, we need to use value instead
+        //let cost = inputElement.value;
+        //cost is a string, JS will convert number + string, to string. So will append
+        //manually convert string to number to fix this issue using Number
+        let cost = Number(inputElement.value);
+        if(cost < 40){
+          cost+=10;
+
+        } 
+        document.querySelector('.js-total-cost').innerHTML = `$${cost}`;
+        
+      }
+
+      /*
+        if text is subscribe -> change to subscribed
+        else, change back to subscribe
+      */
+      function subscribeFunction(){
+        const buttonElement = document.querySelector('.js-subscribe-button');
+        //innerHTML gives text + spaces all around element, we want just text
+        //the reason to do this is if we clean up code the way above, won't change. 
+        //Too much space bc of Subscribe now being in it's own line
+        //do innerText instead
+        if(buttonElement.innerText === 'subscribe'){
+          buttonElement.innerHTML='Subscribed';
+        }else {
+          buttonElement.innerHTML='Subscribed';
+        }
+    }
+
+    //Project part 2: rock paper scissors link
+
+    //amazon calculator
+    </script>
+  </body>
+</html>

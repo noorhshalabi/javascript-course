@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> Cart Quantity</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <button onclick="
+      console.log(`Cart Quantity: ${cartQuantity}`);
+      
+      ">Show Quantity</button>
+    <button onclick="
+      cartQuantity++;  
+      console.log(`Cart Quantity: ${cartQuantity}`);
+    "> Add to Cart
+    </button>
+    <button onclick="
+      cartQuantity+=2;  
+      console.log(`Cart Quantity: ${cartQuantity}`);
+      ">+2
+    </button>
+    
+    <button onclick="
+      cartQuantity+=3;  
+      console.log(`Cart Quantity: ${cartQuantity}`);
+      ">+3  
+    </button>
+
+    <button onclick="
+      cartQuantity=0;
+      console.log('Cart was reset.');
+      console.log(`Cart quantity: ${cartQuantity}`);
+      ">Reset Cart
+    </button>
+
+    <script>
+      //we're going to work on the cart feature - when u hit add to cart, the cart in the top right will increment by 1
+      //just a simpler version instead
+      //three ways to create - let, const, 
+      //const is safer and easier to understand. When we craete with const, you know it'll always contain 3.
+      //let, u wont know what it is.
+      //best practice - use const by default.
+
+      //can use var, can be changed. The original way to create variable. But, not ideal to use now.
+      //can use typeof - which will tell us what type something is. U can use typeof to figure out what type of value inside a variable.
+      let cartQuantity = 0;
+
+    </script>
+  </body>
+</html>

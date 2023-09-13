@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> Document Object Model</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <p>How to make Rock Paper Scissors better with DOM</p>
+    <button>hello</button>
+    <button class="js-button">second button</button>
+    <script>
+      /*
+        1. Document Object model
+        2. document.querySelector(...)
+        3. innerHTML\
+        4. 3 projects - youtube subscribe / unsubscribe, rock paper scissors, calculate cost
+        5. onKeyDown
+        6. more details about strings
+        7. window 
+      */
+      /* This code removes everything on page and replaces with text
+      document.body.innerHTML = 'hello';
+      //Now that we learned objects, we can understand this syntax
+      //Document = built in object and the . is the dot notation
+      //accessing a property of the document called body
+      //body is an object, so you use dot notation again to access
+      //the property of body, which is inner HTML
+      // change the inner HTML to the string, hello
+      // Special about innerHTML, it changes the web page. Document object + web page = linked together
+      document.title = 'Good job' //changes top of the tab
+      
+      //document object represents / models the webpage
+      //Why we call it Document Object Model
+
+        if we change certain properties, will change webpage
+        it has methods u can use
+    */
+     
+    /*
+     console.log(document.title); //linked to title
+     console.log(document.body); //will get body html, and put it inside our JS
+    */ 
+
+    // you'll see the code within the console. 
+    //   YOU CAN HAVE HTML elements inside our javascript ^^ proof
+    //   The DOM combines javascript and HTML togetehr and gives javescript control of the webpage
+
+    //   so now we have html element inside JS? What can we do with it?
+    //   HTML is converted to javascript object if you do console.log(typeof document.body --> that will o/p as object)
+    //   just like any other object, this has properties and methods we can use
+    //   useful property of the body element is innerHTML, which controls all the HTML inside the body.
+    //   if you access this property, you get all the HTML inside the body
+    //   document.body.innerHTML = '<button>Good Job!</button>';
+     
+    //   Learning method of the document object that we can use.
+    //   Reminder - method is a funciton that is saved inside an object
+    //  document.querySelector lets use get any element from the page and put it inside our JS
+    
+    //will get the first button element from the page and put inside our JS
+    //can control the element too, modify
+    console.log(document.querySelector('button').innerHTML);
+    document.querySelector('button').innerHTML = 'Changed';
+    
+    //if our query selector will get only one button on the page, how do we get the second?
+    //we add an attribute to the button called the class attribute, label 
+    //do '.' + 'class name' to look for any class --> This is called a *class selector*
+    //can also save into a variable
+    const buttonElement = document.querySelector('.js-button');
+    console.log(buttonElement);
+
+    //all in all, a DOM will combine Html and JS together. It gives JS full control of the webpage.
+    // practical example next
+    //Practical example target - Creating a button that gets modified after click (youtube subscribe button)
+    //Getting rock paper scissors to display "on a new page"
+    //the amazon calculator
+    //we will then use CSS to make the webpage look better, but focusing only on functionality
+    
+     //if the string only contains a number, and we - * / , it will be converted to a number
+     String(25)
+    console.log('25'-5);
+    //not recommended to do math with strings bc addition behaves differently
+    console.log('25'+5); //output = 30
+    
+    
+    //document represents web page
+    //window represents browser, where document is within window
+    //console is a part of the browser too
+    //window.document;
+    window.console.log('window');
+    window.alert;
+    //window has a shortcut, JS will automatically add window in the front
+    
+    </script>
+  </body>
+</html>
