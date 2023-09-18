@@ -44,5 +44,13 @@
 - Lesson 12 - mainly switching to arrow functions and for each functions for existing projects, understanding differences
   -Also using event listeners instead of onclick in html, removed onclick, created an event listener to listen for "click"
 
+- Course Javascript under the hood by Traversy Media on Youtube
+  - Goal of taking this was to really understand the inner workings and have an overall idea of the picture itself. To try to understand promises and async/wait and asynchronous operations better. 
+    - Execution Context
+    - Memory
+    - Callstack
+  - Next to learn : Task Queue & Event Loop, Memory Storage, and the Javascript Enginer
+
+
     
   
