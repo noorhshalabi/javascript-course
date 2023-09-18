@@ -1,3 +1,4 @@
+https://www.youtube.com/watch?v=SBmSRK3feww
 -Purpose of this course was to understand the nuances of javascript, the javascript basics, and how it works while creating small projects to understand concepts as a whole
 -Over time, in each lesson, course allowed me to see the optimizations and understand how the javascript language is used in a practical sense.
 -This code was created as I walked through the course in VSC Editor. Any code that is mine, will be in a seperate project. Credits to SuperSimpleDev On youtube. Though I followed along, now I understand what I'm looking at. I now understand Numbers, Strings, Variables, booleans, if-statements, functions (Different types covered: Anonymous, named, callback, arrow, higher order function, IIFE), objects, DOM (use case), combining with HTML/CSS, arrays, and loops in JS.
