@@ -4,9 +4,8 @@ https://www.youtube.com/watch?v=SBmSRK3feww
 -This code was created as I walked through the course in VSC Editor. Any code that is mine, will be in a seperate project. Credits to SuperSimpleDev On youtube. Though I followed along, now I understand what I'm looking at. I now understand Numbers, Strings, Variables, booleans, if-statements, functions (Different types covered: Anonymous, named, callback, arrow, higher order function, IIFE), objects, DOM (use case), combining with HTML/CSS, arrays, and loops in JS.
 
 -Games:
-  - Rock Paper Scissors : R S P keyboard can use to play that way, computer can play against himself, click using event listener instead of on click.
--Created:
-  - Simple Todo list : uses event listeners for every item on the list in terms of the delete. 
+  - Rock Paper Scissors : R S P keyboard can use to play that way, computer can play against himself, click using event listener instead of on click. Was able to learn how to make buttons interactive where it records what I click and compared against a randomized computer move generator, how to use localStorage to record the statistics of the game. How to reset that score. 
+  - Simple Todo list : understanding event listeners. Uses event listeners for every item on the list in terms of the delete. This was to learn how to generate HTML via JS. 
 
 - So Far Covered: 
   - Javascript basics - Syntax, how it interacts between html/css
