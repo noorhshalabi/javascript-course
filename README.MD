@@ -3,11 +3,23 @@ https://www.youtube.com/watch?v=SBmSRK3feww
 -Over time, in each lesson, course allowed me to see the optimizations and understand how the javascript language is used in a practical sense.
 -This code was created as I walked through the course in VSC Editor. Any code that is mine, will be in a seperate project. Credits to SuperSimpleDev On youtube. Though I followed along, now I understand what I'm looking at. I now understand Numbers, Strings, Variables, booleans, if-statements, functions (Different types covered: Anonymous, named, callback, arrow, higher order function, IIFE), objects, DOM (use case), combining with HTML/CSS, arrays, and loops in JS.
 
--Games:
+
+https://www.youtube.com/playlist?list=PLillGF-Rfqbars4vKNtpcWVDUpVOVTlgB
+  - Goal of taking this was to really understand the inner workings and have an overall idea of the picture itself. To try to understand promises and async/wait and asynchronous operations better. 
+    - Execution Context
+    - Memory
+    - Callstack
+  - Next to learn : Task Queue & Event Loop, Memory Storage, and the Javascript Enginer
+
+https://www.youtube.com/watch?v=vn3tm0quoqE
+  - To try to understand ASYNC/AWAIT
+
+
+-Games (Look in results folder to see how it looks)
   - Rock Paper Scissors : R S P keyboard can use to play that way, computer can play against himself, click using event listener instead of on click. Was able to learn how to make buttons interactive where it records what I click and compared against a randomized computer move generator, how to use localStorage to record the statistics of the game. How to reset that score. 
   - Simple Todo list : understanding event listeners. Uses event listeners for every item on the list in terms of the delete. This was to learn how to generate HTML via JS. 
 
-- So Far Covered: 
+- So Far Covered in 12 hour JS Course: 
   - Javascript basics - Syntax, how it interacts between html/css
   - Numbers and Math in JS
   - Strings : String interpolation and why to use that vs concatenation
@@ -44,12 +56,7 @@ https://www.youtube.com/watch?v=SBmSRK3feww
 - Lesson 12 - mainly switching to arrow functions and for each functions for existing projects, understanding differences
   -Also using event listeners instead of onclick in html, removed onclick, created an event listener to listen for "click"
 
-- Course Javascript under the hood by Traversy Media on Youtube
-  - Goal of taking this was to really understand the inner workings and have an overall idea of the picture itself. To try to understand promises and async/wait and asynchronous operations better. 
-    - Execution Context
-    - Memory
-    - Callstack
-  - Next to learn : Task Queue & Event Loop, Memory Storage, and the Javascript Enginer
+
 
 
     
