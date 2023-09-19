@@ -9,7 +9,9 @@ https://www.youtube.com/playlist?list=PLillGF-Rfqbars4vKNtpcWVDUpVOVTlgB
     - Execution Context
     - Memory
     - Callstack
-  - Next to learn : Task Queue & Event Loop, Memory Storage, and the Javascript Enginer
+    - Interactions of the JS Engine with the ASync Web APIS, in connection to the Task Queue & Event Loop.
+    - Memory Storage
+    - Javascript Engine
 
 https://www.youtube.com/watch?v=vn3tm0quoqE
   - To try to understand ASYNC/AWAIT
